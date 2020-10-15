@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name kbd)(type KiCad)(uri "C:/keyboard/kicad libraries/kbd-master/kicad-footprints/kbd.pretty")(options "")(descr ""))
-)
