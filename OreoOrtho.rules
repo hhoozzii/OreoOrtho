@@ -11,86 +11,103 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 18331)
-    (layer_rule F.Cu
+    (start_pass_no 679)
+    (layer_rule Front
       (active on)
       (preferred_direction horizontal)
-      (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.5)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 3.3)
     )
-    (layer_rule B.Cu
+    (layer_rule In1.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
       (against_preferred_direction_trace_costs 1.7)
     )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule Back
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.5)
+    )
   )
   (rule
-    (width 254.0)
-    (clear 130.2)
-    (clear 127.0 (type smd_to_turn_gap))
-    (clear 32.6 (type smd_smd))
+    (width 200.0)
+    (clear 127.2)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 31.8 (type smd_smd))
   )
-  (padstack "Via[0-1]_450:200_um"
+  (padstack "Via[0-3]_600:300_um"
     (shape
-      (circle F.Cu 450.0 0.0 0.0)
+      (circle Front 600.0 0.0 0.0)
     )
     (shape
-      (circle B.Cu 450.0 0.0 0.0)
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle Back 600.0 0.0 0.0)
     )
     (attach off)
   )
   (via 
-    "Via[0-1]_450:200_um" "Via[0-1]_450:200_um" default
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
   )
   (via 
-    "Via[0-1]_450:200_um-kicad_default" "Via[0-1]_450:200_um" "kicad_default"
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
   )
   (via 
-    "Via[0-1]_450:200_um-thick" "Via[0-1]_450:200_um" thick
+    "Via[0-3]_600:300_um-thick" "Via[0-3]_600:300_um" thick
   )
   (via_rule
-    default "Via[0-1]_450:200_um"
+    default "Via[0-3]_600:300_um"
   )
   (via_rule
-    "kicad_default" "Via[0-1]_450:200_um-kicad_default"
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
   )
   (via_rule
-    thick "Via[0-1]_450:200_um-thick"
+    thick "Via[0-3]_600:300_um-thick"
   )
   (class default
     (clearance_class default)
     (via_rule default)
     (rule
-      (width 254.0)
+      (width 200.0)
     )
     (circuit 
-      (use_layer F.Cu B.Cu)
+      (use_layer Front In1.Cu In2.Cu Back)
     )
   )
   (class "kicad_default"
-    "Net-(C1-Pad2)" "Net-(C2-Pad2)" "Net-(C3-Pad2)" "Net-(D1-Pad2)" Row0 "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D5-Pad2)"
-    Row1 "Net-(D6-Pad2)" VCC LED "Net-(LED5-Pad2)" "Net-(R1-Pad1)" "Net-(R2-Pad2)" "Net-(R3-Pad1)"
-    D+ "D-" "Net-(R6-Pad1)" Col0 Col1 Col2 "Net-(D4-Pad2)" "Net-(R4-Pad1)"
-    "Net-(R5-Pad2)" "Net-(LED1-Pad2)" "Net-(LED2-Pad2)" "Net-(LED3-Pad2)" "Net-(LED4-Pad2)"
+    GND "Net-(C1-Pad2)" "Net-(C2-Pad2)" "Net-(C3-Pad2)" +5V "Net-(D1-Pad2)" Row0 "Net-(D2-Pad2)"
+    "Net-(D3-Pad2)" "Net-(D4-Pad2)" Row1 VCC "Net-(LED1-Pad2)" LED "Net-(LED2-Pad2)" "Net-(LED3-Pad2)"
+    "Net-(R1-Pad1)" "Net-(R2-Pad2)" "Net-(R3-Pad1)" D+ "Net-(R4-Pad1)" "Net-(R5-Pad2)" "D-" "Net-(R6-Pad1)"
+    Col0 Col1
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
-      (width 254.0)
+      (width 200.0)
     )
     (circuit 
-      (use_layer F.Cu B.Cu)
+      (use_layer Front In1.Cu In2.Cu Back)
     )
   )
   (class thick
-    GND +5V
     (clearance_class thick)
     (via_rule thick)
     (rule
-      (width 500.0)
+      (width 400.0)
     )
     (circuit 
-      (use_layer F.Cu B.Cu)
+      (use_layer Front In1.Cu In2.Cu Back)
     )
   )
 )
