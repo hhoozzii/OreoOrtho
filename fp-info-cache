@@ -1,18 +1,4 @@
-19518890759279623
-Audio_Module
-Reverb_BTDR-1H
-Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
-audio belton reverb
-0
-7
-7
-Audio_Module
-Reverb_BTDR-1V
-Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
-audio belton reverb
-0
-7
-7
+19475637955016363
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -253,63 +239,63 @@ battery CR1225 coin cell
 0
 Battery
 Battery_Panasonic_CR1025-VSK_Vertical_CircularHoles
-Panasonic CR-1025/VSK battery
+Panasonic CR-1025/VSK battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-1025 coin cell vertical
 0
 2
 2
 Battery
 Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles
-Panasonic CR-1220/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.PDF
+Panasonic CR-1220/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-1220 coin cell vertical
 0
 2
 2
 Battery
 Battery_Panasonic_CR1632-V1AN_Vertical_CircularHoles
-Panasonic CR-1632-V1AN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D464.PDF
+Panasonic CR-1632-V1AN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-1632 coin cell vertical
 0
 2
 2
 Battery
 Battery_Panasonic_CR2025-V1AK_Vertical_CircularHoles
-Panasonic CR-2025/V1AK battery,
+Panasonic CR-2025/V1AK battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-2025 coin cell vertical
 0
 2
 2
 Battery
 Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles
-Panasonic CR-2032/VS1N battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D348.PDF
+Panasonic CR-2032/VS1N battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-2032 coin cell vertical
 0
 2
 2
 Battery
 Battery_Panasonic_CR2354-VCN_Vertical_CircularHoles
-Panasonic CR-2354/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D486.PDF
+Panasonic CR-2354/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-2354/VCN coin cell vertical
 0
 2
 2
 Battery
 Battery_Panasonic_CR2450-VAN_Vertical_CircularHoles
-Panasonic CR-2450/VAN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D492.PDF
+Panasonic CR-2450/VAN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-2450 coin cell
 0
 2
 2
 Battery
 Battery_Panasonic_CR2477-VCN_Vertical_CircularHoles
-Panasonic CR-2477/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D502.PDF
+Panasonic CR-2477/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-2477 coin cell vertical
 0
 2
 2
 Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
-Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D508.PDF
+Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-3032 coin cell vertical
 0
 2
@@ -48063,14 +48049,14 @@ Isolated 1W DCDC-Converter
 6
 Converter_DCDC
 Converter_DCDC_muRata_NMAxxxxSC_THT
-Murata NMAxxxxSC footprint based on SIP7, http://power.murata.com/data/power/ncl/kdc_nma.pdf
-Murata NMAxxxxSC DCDC-Converter
+muRata NMAxxxxSC footprint based on SIP7, http://power.murata.com/data/power/ncl/kdc_nma.pdf
+muRata NMAxxxxSC DCDC-Converter
 0
 5
 5
 Converter_DCDC
 Converter_DCDC_muRata_NXExSxxxxMC_SMD
-Isolated 1W or 2W Single Output SM DC/DC Converters https://www.murata.com/products/productdata/8807031865374/kdc-nxe1.pdf#page=8 https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf#page=9
+Isolated 1W or 2W Single Output SM DC/DC Converters http://power.murata.com/data/power/ncl/kdc_nxe1.pdf http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
 Isolated 1W or 2W Single Output SM DC/DC Converters
 0
 5
@@ -52557,7 +52543,7 @@ inductor handsolder
 2
 Inductor_SMD
 L_1806_4516Metric
-Inductor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+Inductor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
 inductor
 0
 2
@@ -56659,21 +56645,21 @@ LED diameter 5.0mm z-position of LED center 3.0mm 3 pins diameter 5.0mm z-positi
 3
 LED_THT
 LED_D5.0mm-4_RGB
-LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf
+LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf
 LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
 0
 4
 4
 LED_THT
 LED_D5.0mm-4_RGB_Staggered_Pins
-LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf
+LED, diameter 5.0mm, 4 pins, WP154A4, http://webtest4.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf
 rgb led
 0
 4
 4
 LED_THT
 LED_D5.0mm-4_RGB_Wide_Pins
-LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf
+LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf
 LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
 0
 4
@@ -61566,8 +61552,8 @@ LFCSP NoLead
 9
 Package_CSP
 LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm
-LFCSP, 8 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-8/CP_8_13.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead
+LFCSP, 8 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-8/CP_8_13.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+LFCSP DFN_QFN
 0
 13
 9
@@ -63001,8 +62987,8 @@ dfn udfn dual flat
 8
 Package_DFN_QFN
 OnSemi_VCT-28_3.5x3.5mm_P0.4mm
-OnSemi  VCT, 28 Pin (http://www.onsemi.com/pub/Collateral/601AE.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
-OnSemi VCT NoLead
+OnSemi  VCT, 28 Pin (http://www.onsemi.com/pub/Collateral/601AE.PDF), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+OnSemi VCT DFN_QFN
 0
 28
 28
@@ -68447,8 +68433,8 @@ TQFP QFP
 49
 Package_QFP
 TQFP-48_7x7mm_P0.5mm
-TQFP, 48 Pin (https://www.jedec.org/system/files/docs/MS-026D.pdf var ABC), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TQFP QFP
+48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
 0
 48
 48
@@ -70057,8 +70043,8 @@ SSOP 0.65
 16
 Package_SO
 SSOP-16_5.3x6.2mm_P0.65mm
-SSOP, 16 Pin (https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf#page=14), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SSOP SO
+SSOP16: plastic shrink small outline package; 16 leads; body width 5.3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot338-1_po.pdf)
+SSOP 0.65
 0
 16
 16
@@ -71597,8 +71583,8 @@ SOT-23
 3
 Package_TO_SOT_SMD
 SOT-23-5
-SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
+5-pin SOT23 package
+SOT-23-5
 0
 5
 5
@@ -71611,8 +71597,8 @@ SOT-23-5 hand-soldering
 5
 Package_TO_SOT_SMD
 SOT-23-6
-SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
+6-pin SOT-23 package
+SOT-23-6
 0
 6
 6
@@ -71625,8 +71611,8 @@ SOT-23-6 Handsoldering
 6
 Package_TO_SOT_SMD
 SOT-23-8
-SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
+8-pin SOT-23 package, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sot-23rj/rj_8.pdf
+SOT-23-8
 0
 8
 8
@@ -72178,8 +72164,8 @@ TSOT-23
 3
 Package_TO_SOT_SMD
 TSOT-23-5
-TSOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSOT TO_SOT_SMD
+5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
+TSOT-23-5
 0
 5
 5
@@ -72192,8 +72178,8 @@ TSOT-23-5 Hand-soldering
 5
 Package_TO_SOT_SMD
 TSOT-23-6
-TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSOT TO_SOT_SMD
+6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
+TSOT-23-6 MK06A TSOT-6
 0
 6
 6
@@ -72206,8 +72192,8 @@ TSOT-23-6 MK06A TSOT-6 Hand-soldering
 6
 Package_TO_SOT_SMD
 TSOT-23-8
-TSOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSOT TO_SOT_SMD
+8-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_8_05-08-1637.pdf
+TSOT-23-8
 0
 8
 8
@@ -82669,97 +82655,6 @@ THT Terminal Block WAGO 804-324 45Degree pitch 7.5mm size 179x15mm^2 drill 1.2mm
 0
 48
 24
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650073.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650074_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650074.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650094_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650094.pdf)
-screw terminal thread redcube thr power connector
-0
-16
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650173_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650173.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650174_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650174.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650194_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650194.pdf)
-screw terminal thread redcube thr power connector
-0
-18
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74650195_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650195.pdf)
-screw terminal thread redcube thr power connector
-0
-18
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRBU_74655095_THR
-REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74655095.pdf)
-screw terminal thread redcube thr power connector
-0
-16
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRSH_74651173_THR
-REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651173.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRSH_74651174_THR
-REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651174.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRSH_74651175_THR
-REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651175.pdf)
-screw terminal thread redcube thr power connector
-0
-8
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRSH_74651194_THR
-REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651194.pdf)
-screw terminal thread redcube thr power connector
-0
-18
-1
-TerminalBlock_Wuerth
-Wuerth_REDCUBE-THR_WP-THRSH_74651195_THR
-REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651195.pdf)
-screw terminal thread redcube thr power connector
-0
-18
-1
 TestPoint
 TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
 Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
@@ -83784,13 +83679,6 @@ HRO-TYPE-C-31-M-12
 13
 Type-C
 HRO-TYPE-C-31-M-12-Assembly
-
-
-0
-16
-13
-Type-C
-HRO-TYPE-C-31-M-12-HandSoldering
 
 
 0

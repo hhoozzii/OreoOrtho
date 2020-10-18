@@ -14,45 +14,32 @@
         (index 0)
       )
     )
-    (layer In1.Cu
+    (layer Back
       (type signal)
       (property
         (index 1)
       )
     )
-    (layer In2.Cu
-      (type signal)
-      (property
-        (index 2)
-      )
-    )
-    (layer Back
-      (type signal)
-      (property
-        (index 3)
-      )
-    )
     (boundary
       (path pcb 0  196137 -35740.8  196410 -35806.2  196669 -35913.4  196908 -36059.9
             197121 -36241.9  197303 -36455  197449 -36693.9  197557 -36952.8
-            197622 -37225.3  197644 -37504.7  197644 -72032.9  197622 -72312.3
-            197557 -72584.8  197449 -72843.7  197303 -73082.6  197121 -73295.7
-            196908 -73477.7  196669 -73624.2  196410 -73731.4  196137 -73796.8
-            195858 -73818.8  141684 -73818.8  141478 -73800.7  141277 -73747
-            141089 -73659.3  140919 -73540.3  140772 -73393.5  140653 -73223.5
-            140566 -73035.4  140512 -72834.9  140494 -72628.2  140494 -37504.7
-            140516 -37225.3  140581 -36952.8  140689 -36693.9  140835 -36455
-            141017 -36241.9  141230 -36059.9  141469 -35913.4  141728 -35806.2
-            142000 -35740.8  142280 -35718.8  195858 -35718.8  196137 -35740.8)
+            197622 -37225.3  197644 -37504.7  197644 -70246.9  197622 -70526.3
+            197557 -70798.8  197449 -71057.7  197303 -71296.7  197121 -71509.8
+            196908 -71691.8  196669 -71838.2  196410 -71945.5  196137 -72010.9
+            195858 -72032.9  142280 -72032.9  142073 -72014.8  141873 -71961.1
+            141684 -71873.4  141514 -71754.3  141368 -71607.6  141249 -71437.6
+            141161 -71249.5  141107 -71049  141089 -70842.2  141089 -39290.7
+            141111 -39011.3  141177 -38738.8  141284 -38479.9  141430 -38240.9
+            141612 -38027.8  141825 -37845.8  142064 -37699.4  142323 -37592.1
+            142596 -37526.7  142875 -37504.7  184547 -37504.7  184569 -37225.3
+            184634 -36952.8  184742 -36693.9  184888 -36455  185070 -36241.9
+            185283 -36059.9  185522 -35913.4  185781 -35806.2  186054 -35740.8
+            186333 -35718.8  195858 -35718.8  196137 -35740.8)
     )
-    (plane GND (polygon Front 0  191095 -64889.1  185142 -64889.1  185142 -58936  191095 -58936
-            191095 -64889.1))
-    (plane GND (polygon Back 0  191095 -64889.1  185142 -64889.1  185142 -58936  191095 -58936
-            191095 -64889.1))
-    (plane GND (polygon Front 0  197644 -73818.8  140494 -73818.8  140494 -35718.8  197644 -35718.8
-            197644 -73818.8))
-    (plane GND (polygon Back 0  197644 -73818.8  140494 -73818.8  140494 -35718.8  197644 -35718.8
-            197644 -73818.8))
+    (plane @:no_net_0 (polygon Front 0  198239 -74414.1  139899 -74414.1  139899 -35123.5  198239 -35123.5
+            198239 -74414.1))
+    (plane @:no_net_1 (polygon Back 0  198261 -74428.2  139899 -74414.1  139899 -35123.5  198239 -35123.5
+            198261 -74428.2))
     (keepout "" (polygon signal 0  167269 -67506.3  167269 -70606.3  170869 -70606.3  170869 -67506.3
             167269 -67506.3))
     (keepout "" (polygon signal 0  148219 -67506.3  148219 -70606.3  151819 -70606.3  151819 -67506.3
@@ -61,7 +48,39 @@
             148219 -48456.3))
     (keepout "" (polygon signal 0  167269 -48456.3  167269 -51556.3  170869 -51556.3  170869 -48456.3
             167269 -48456.3))
-    (via "Via[0-3]_600:300_um")
+    (keepout "" (polygon Front 0  194511 -64428.2  187111 -64428.2  187111 -57028.2  194511 -57028.2
+            194511 -64428.2))
+    (keepout "" (polygon Back 0  194511 -64428.2  187111 -64428.2  187111 -57028.2  194511 -57028.2
+            194511 -64428.2))
+    (keepout "" (polygon Front 0  183806 -64662.5  183806 -69425  179044 -69425  179044 -64662.5
+            183806 -64662.5))
+    (keepout "" (polygon Back 0  178061 -66428.2  176761 -66428.2  176761 -64528.2  178061 -64528.2
+            178061 -66428.2))
+    (keepout "" (polygon Back 0  159011 -66428.2  157711 -66428.2  157711 -64528.2  159011 -64528.2
+            159011 -66428.2))
+    (keepout "" (polygon Back 0  159011 -47378.2  157661 -47378.2  157661 -45478.2  159011 -45478.2
+            159011 -47378.2))
+    (keepout "" (polygon Back 0  178061 -47378.2  176711 -47378.2  176711 -45478.2  178061 -45478.2
+            178061 -47378.2))
+    (keepout "" (polygon Front 0  183711 -47029.7  181811 -47029.7  181811 -45839.1  183711 -45839.1
+            183711 -47029.7))
+    (keepout "" (polygon Front 0  184211 -50623.6  185261 -50623.6  185261 -51373.6  184211 -51373.6
+            184211 -52523.6  183711 -52523.6  183711 -51373.6  182761 -51373.6
+            182761 -50623.6  183711 -50623.6  183711 -49473.6  184211 -49473.6
+            184211 -50623.6))
+    (keepout "" (polygon Front 0  189061 -45978.2  190161 -45978.2  190161 -46578.2  189111 -46578.2
+            189111 -47978.2  188611 -47978.2  188611 -46578.2  187261 -46578.2
+            187261 -45978.2  188361 -45978.2  188361 -44728.2  189061 -44728.2
+            189061 -45978.2))
+    (keepout "" (polygon Back 0  154186 -41671.9  147638 -41671.9  147638 -44053.2  144661 -44053.2
+            144661 -38695.3  154186 -38695.3  154186 -41671.9))
+    (keepout "" (polygon Back 0  173458 -41671.9  166910 -41671.9  166910 -44053.2  163711 -44053.2
+            163711 -38695.3  173458 -38695.3  173458 -41671.9))
+    (keepout "" (polygon Back 0  173460 -60721.9  166912 -60721.9  166912 -63103.2  163711 -63103.2
+            163711 -57745.4  173460 -57745.4  173460 -60721.9))
+    (keepout "" (polygon Back 0  154194 -60721.9  147646 -60721.9  147646 -63103.2  144661 -63103.2
+            144661 -57745.4  154194 -57745.4  154194 -60721.9))
+    (via "Via[0-1]_600:300_um")
     (rule
       (width 200)
       (clearance 127.1)
@@ -70,37 +89,37 @@
     )
   )
   (placement
-    (component kbd:HOLE
-      (place H1 159544 -54768.8 front 0 (PN MountingHole))
-    )
-    (component "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
-      (place Y1 183952 -51792.2 front 90 (PN 16MHz))
-    )
-    (component "Type-C:HRO-TYPE-C-31-M-12-Assembly"
-      (place USB1 191095 -34528.2 front 180 (PN "HRO-TYPE-C-31-M-12"))
-    )
-    (component "Package_TO_SOT_SMD:SOT-143"
-      (place U2 188714 -47625 front 90 (PN PRTR5V0U2X))
-    )
-    (component "Package_QFP:TQFP-32_7x7mm_P0.8mm"
-      (place U1 188119 -61912.6 front 270 (PN "ATmega32U2-AU"))
-    )
-    (component kbd:CherryMX_1u
+    (component kbd:CherryMX_Hotswap
       (place SW4 169069 -64293.8 front 0 (PN MXSwitch))
       (place SW3 150019 -64293.8 front 0 (PN MXSwitch))
       (place SW2 169069 -45243.8 front 0 (PN MXSwitch))
       (place SW1 150019 -45243.8 front 0 (PN MXSwitch))
     )
+    (component kbd:HOLE
+      (place H1 159544 -54768.8 front 0 (PN MountingHole))
+    )
+    (component "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+      (place Y1 183952 -50992.2 front 90 (PN 16MHz))
+    )
+    (component "Type-C:HRO-TYPE-C-31-M-12-Assembly"
+      (place USB1 191095 -34528.2 front 180 (PN "HRO-TYPE-C-31-M-12"))
+    )
+    (component "Package_TO_SOT_SMD:SOT-143"
+      (place U2 188714 -46278.2 front 90 (PN PRTR5V0U2X))
+    )
+    (component "Package_QFP:TQFP-32_7x7mm_P0.8mm"
+      (place U1 190819 -60712.6 front 270 (PN "ATmega32U2-AU"))
+    )
     (component "random-keyboard-parts:SKQG-1155865"
-      (place RST_SW1 184547 -70842.2 front 180 (PN SW_Push))
+      (place RST_SW1 181425 -67044.3 front 270 (PN SW_Push))
     )
     (component Resistor_SMD:R_0805_2012Metric
-      (place R6 193477 -48815.7 front 0 (PN 5.1K))
-      (place R5 192881 -52387.5 front 90 (PN 22))
-      (place R4 190500 -52387.5 front 270 (PN 22))
-      (place R3 193477 -46434.4 front 0 (PN 5.1K))
-      (place R2 180975 -61317.2 front 270 (PN 10K))
-      (place R1 191374 -69056.3 front 0 (PN 10K))
+      (place R6 193861 -48078.2 front 0 (PN 5.1K))
+      (place R5 194581 -51687.5 front 90 (PN 22))
+      (place R4 192200 -51687.5 front 270 (PN 22))
+      (place R3 193861 -45078.2 front 0 (PN 5.1K))
+      (place R2 183675 -60117.2 front 270 (PN 10K))
+      (place R1 194461 -68078.2 front 0 (PN 10K))
     )
     (component "kbd:YS-SK6812MINI-E"
       (place LED4 169069 -69056.3 back 0 (PN "YS-SK6812MINI-E"))
@@ -109,7 +128,7 @@
       (place LED1 169069 -50006.3 back 0 (PN "YS-SK6812MINI-E"))
     )
     (component Fuse:Fuse_1206_3216Metric
-      (place F1 182761 -45839.1 front 270 (PN 500mA))
+      (place F1 183561 -45378.2 front 0 (PN 500mA))
     )
     (component kbd:D3_SMD_v2
       (place D4 177403 -65484.4 back 270 (PN D))
@@ -118,15 +137,57 @@
       (place D1 158353 -46434.4 back 270 (PN D))
     )
     (component Capacitor_SMD:C_0603_1608Metric
-      (place C6 182761 -36909.4 front 180 (PN 10uF))
-      (place C5 182761 -39290.7 front 180 (PN 0.1uF))
-      (place C4 182761 -41671.9 front 180 (PN 0.1uF))
-      (place C3 195263 -63103.2 front 270 (PN 1uF))
-      (place C2 180380 -52387.5 front 90 (PN 22pF))
-      (place C1 187524 -52387.5 front 270 (PN 22pF))
+      (place C6 182761 -39290.7 front 180 (PN 10uF))
+      (place C5 182761 -41076.6 front 180 (PN 0.1uF))
+      (place C4 182761 -42862.5 front 180 (PN 0.1uF))
+      (place C3 189461 -68178.2 front 0 (PN 1uF))
+      (place C2 180380 -51587.5 front 90 (PN 22pF))
+      (place C1 187524 -51587.5 front 270 (PN 22pF))
     )
   )
   (library
+    (image kbd:CherryMX_Hotswap
+      (outline (path signal 400  4250 6400  3000 6400))
+      (outline (path signal 500  -5450 1300  -3000 1300))
+      (outline (path signal 150  4400 6600  -3800 6600))
+      (outline (path signal 150  -400 3000  4400 3000))
+      (outline (path signal 150  -5650 1100  -2620 1100))
+      (outline (path signal 150  -5900 4700  -5900 3950))
+      (outline (path signal 150  -5650 5550  -5650 1100))
+      (outline (path signal 150  -5900 3950  -5700 3950))
+      (outline (path signal 150  4380 4000  4380 6250))
+      (outline (path signal 150  4400 3000  4400 6600))
+      (outline (path signal 3500  2600 4800  -4100 4800))
+      (outline (path signal 1000  3900 6000  3900 3500))
+      (outline (path signal 500  4200 3250  2900 3300))
+      (outline (path signal 3000  -4170 5100  -4170 2860))
+      (outline (path signal 800  -5300 1600  -5300 3400))
+      (outline (path signal 300  -5800 4050  -5800 4700))
+      (outline (path signal 150  -9525 9525  9525 9525))
+      (outline (path signal 150  9525 9525  9525 -9525))
+      (outline (path signal 150  9525 -9525  -9525 -9525))
+      (outline (path signal 150  -9525 -9525  -9525 9525))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  -7000 -6000  -7000 -7000))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  7000 -7000  7000 -6000))
+      (outline (path signal 150  -7000 7000  -6000 7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (pin Rect[B]Pad_2550x2500_um (rotate 180) 2 5842 5080)
+      (pin Rect[B]Pad_2550x2500_um (rotate 180) 1 -7085 2540)
+      (keepout "" (circle Front 3000 2540 5080))
+      (keepout "" (circle Back 3000 2540 5080))
+      (keepout "" (circle Front 3000 -3810 2540))
+      (keepout "" (circle Back 3000 -3810 2540))
+      (keepout "" (circle Front 1900 -5080 0))
+      (keepout "" (circle Back 1900 -5080 0))
+      (keepout "" (circle Front 1900 5080 0))
+      (keepout "" (circle Back 1900 5080 0))
+      (keepout "" (circle Front 4100))
+      (keepout "" (circle Back 4100))
+    )
     (image kbd:HOLE
       (outline (path signal 150  2200 0  2118.42 -593.553  1879.72 -1143.09  1501.62 -1607.84
             1012.14 -1953.35  447.603 -2153.99  -150.133 -2194.87  -736.735 -2072.97
@@ -190,12 +251,8 @@
       (pin Oval[A]Pad_1000x1600_um 13@2 -4320 2600)
       (pin Oval[A]Pad_1000x1600_um 13@3 4320 2600)
       (keepout "" (circle Front 650 2890 6250))
-      (keepout "" (circle In1.Cu 650 2890 6250))
-      (keepout "" (circle In2.Cu 650 2890 6250))
       (keepout "" (circle Back 650 2890 6250))
       (keepout "" (circle Front 650 -2890 6250))
-      (keepout "" (circle In1.Cu 650 -2890 6250))
-      (keepout "" (circle In2.Cu 650 -2890 6250))
       (keepout "" (circle Back 650 -2890 6250))
     )
     (image "Package_TO_SOT_SMD:SOT-143"
@@ -266,34 +323,6 @@
       (pin Rect[T]Pad_1600x550_um 3 -4250 1200)
       (pin Rect[T]Pad_1600x550_um 2 -4250 2000)
       (pin Rect[T]Pad_1600x550_um 1 -4250 2800)
-    )
-    (image kbd:CherryMX_1u
-      (outline (path signal 150  -6000 -7000  -7000 -7000))
-      (outline (path signal 150  -7000 -6000  -7000 -7000))
-      (outline (path signal 150  7000 7000  6000 7000))
-      (outline (path signal 150  7000 6000  7000 7000))
-      (outline (path signal 150  7000 -7000  7000 -6000))
-      (outline (path signal 150  6000 -7000  7000 -7000))
-      (outline (path signal 150  -7000 7000  -6000 7000))
-      (outline (path signal 150  -7000 6000  -7000 7000))
-      (outline (path signal 150  -9525 -9525  -9525 9525))
-      (outline (path signal 150  9525 -9525  -9525 -9525))
-      (outline (path signal 150  9525 9525  9525 -9525))
-      (outline (path signal 150  -9525 9525  9525 9525))
-      (pin Oval[A]Pad_2500x2000_um 2 2540 5080)
-      (pin Oval[A]Pad_2500x2000_um 1 -3810 2540)
-      (keepout "" (circle Front 4000))
-      (keepout "" (circle In1.Cu 4000))
-      (keepout "" (circle In2.Cu 4000))
-      (keepout "" (circle Back 4000))
-      (keepout "" (circle Front 1900 -5080 0))
-      (keepout "" (circle In1.Cu 1900 -5080 0))
-      (keepout "" (circle In2.Cu 1900 -5080 0))
-      (keepout "" (circle Back 1900 -5080 0))
-      (keepout "" (circle Front 1900 5080 0))
-      (keepout "" (circle In1.Cu 1900 5080 0))
-      (keepout "" (circle In2.Cu 1900 5080 0))
-      (keepout "" (circle Back 1900 5080 0))
     )
     (image "random-keyboard-parts:SKQG-1155865"
       (outline (path signal 150  -2600 -1100  -1100 -2600))
@@ -415,30 +444,17 @@
     )
     (padstack Round[A]Pad_5000_um
       (shape (circle Front 5000))
-      (shape (circle In1.Cu 5000))
-      (shape (circle In2.Cu 5000))
       (shape (circle Back 5000))
       (attach off)
     )
     (padstack Oval[A]Pad_1000x1600_um
       (shape (path Front 1000  0 -300  0 300))
-      (shape (path In1.Cu 1000  0 -300  0 300))
-      (shape (path In2.Cu 1000  0 -300  0 300))
       (shape (path Back 1000  0 -300  0 300))
       (attach off)
     )
     (padstack Oval[A]Pad_1000x2100_um
       (shape (path Front 1000  0 -550  0 550))
-      (shape (path In1.Cu 1000  0 -550  0 550))
-      (shape (path In2.Cu 1000  0 -550  0 550))
       (shape (path Back 1000  0 -550  0 550))
-      (attach off)
-    )
-    (padstack Oval[A]Pad_2500x2000_um
-      (shape (path Front 2000  -250 0  250 0))
-      (shape (path In1.Cu 2000  -250 0  250 0))
-      (shape (path In2.Cu 2000  -250 0  250 0))
-      (shape (path Back 2000  -250 0  250 0))
       (attach off)
     )
     (padstack RoundRect[T]Pad_900x950_225.856_um
@@ -483,6 +499,10 @@
             418.577 872.138))
       (attach off)
     )
+    (padstack Rect[B]Pad_2550x2500_um
+      (shape (rect Back -1275 -1250 1275 1250))
+      (attach off)
+    )
     (padstack Rect[T]Pad_2100x1800_um
       (shape (rect Front -1050 -900 1050 900))
       (attach off)
@@ -519,15 +539,17 @@
       (shape (rect Front -900 -550 900 550))
       (attach off)
     )
-    (padstack "Via[0-3]_600:300_um"
+    (padstack "Via[0-1]_600:300_um"
       (shape (circle Front 600))
-      (shape (circle In1.Cu 600))
-      (shape (circle In2.Cu 600))
       (shape (circle Back 600))
       (attach off)
     )
   )
   (network
+    (net @:no_net_0
+    )
+    (net @:no_net_1
+    )
     (net "Net-(C1-Pad2)"
       (pins Y1-1 U1-1 C1-2)
     )
@@ -549,7 +571,7 @@
       (pins SW1-2 D1-2)
     )
     (net Row0
-      (pins U1-23 D2-1 D1-1)
+      (pins U1-15 D2-1 D1-1)
     )
     (net "Net-(D2-Pad2)"
       (pins SW2-2 D2-2)
@@ -561,7 +583,7 @@
       (pins SW4-2 D4-2)
     )
     (net Row1
-      (pins U1-22 D4-1 D3-1)
+      (pins U1-16 D4-1 D3-1)
     )
     (net VCC
       (pins USB1-11 USB1-2 U2-4 F1-2)
@@ -570,7 +592,7 @@
       (pins LED2-4 LED1-2)
     )
     (net LED
-      (pins U1-18 LED1-4)
+      (pins U1-8 LED1-4)
     )
     (net "Net-(LED2-Pad2)"
       (pins LED3-4 LED2-2)
@@ -603,32 +625,34 @@
       (pins USB1-10 R6-1)
     )
     (net Col0
-      (pins U1-21 SW3-1 SW1-1)
+      (pins SW3-1 SW1-1 U1-10)
     )
     (net Col1
-      (pins U1-20 SW4-1 SW2-1)
+      (pins SW4-1 SW2-1 U1-9)
     )
-    (class kicad_default "" +5V Col0 Col1 Col2 D+ "D-" GND LED "Net-(C1-Pad2)"
-      "Net-(C2-Pad2)" "Net-(C3-Pad2)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)"
-      "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(LED1-Pad2)" "Net-(LED2-Pad2)"
-      "Net-(LED3-Pad2)" "Net-(LED4-Pad2)" "Net-(LED5-Pad2)" "Net-(LED6-Pad2)"
+    (net "Net-(U1-Pad12)"
+      (pins U1-12)
+    )
+    (class kicad_default "" Col0 Col1 D+ "D-" LED "Net-(C1-Pad2)" "Net-(C2-Pad2)"
+      "Net-(C3-Pad2)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)"
+      "Net-(LED1-Pad2)" "Net-(LED2-Pad2)" "Net-(LED3-Pad2)" "Net-(LED4-Pad2)"
       "Net-(R1-Pad1)" "Net-(R2-Pad2)" "Net-(R3-Pad1)" "Net-(R4-Pad1)" "Net-(R5-Pad2)"
       "Net-(R6-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad12)" "Net-(U1-Pad14)"
-      "Net-(U1-Pad15)" "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U1-Pad19)"
-      "Net-(U1-Pad25)" "Net-(U1-Pad26)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)"
-      "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(USB1-Pad3)" "Net-(USB1-Pad9)"
-      Row0 Row1 VCC
+      "Net-(U1-Pad17)" "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad20)"
+      "Net-(U1-Pad21)" "Net-(U1-Pad22)" "Net-(U1-Pad23)" "Net-(U1-Pad25)"
+      "Net-(U1-Pad26)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)"
+      "Net-(U1-Pad9)" "Net-(USB1-Pad3)" "Net-(USB1-Pad9)" Row0 Row1
       (circuit
-        (use_via Via[0-3]_600:300_um)
+        (use_via Via[0-1]_600:300_um)
       )
       (rule
         (width 200)
         (clearance 127.1)
       )
     )
-    (class thick
+    (class thick +5V GND VCC
       (circuit
-        (use_via Via[0-3]_600:300_um)
+        (use_via Via[0-1]_600:300_um)
       )
       (rule
         (width 400)
@@ -637,34 +661,5 @@
     )
   )
   (wiring
-    (wire (path Front 127  180120 -52346.9  180339 -52346.9)(net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  188119 -60126.6 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  188119 -63698.5 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  189905 -64293.8 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  187524 -64293.8 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  188714 -64293.8 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  189310 -63698.5 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  186928 -63698.5 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  186333 -64293.8 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  185738 -63698.5 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  190500 -63698.5 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  187524 -59531.3 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  188714 -59531.3 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  189310 -60126.6 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  189905 -59531.3 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  190500 -60126.6 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  186928 -60126.6 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  186333 -59531.3 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  185738 -60126.6 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  186333 -63103.2 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  186333 -60721.9 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  185738 -61317.2 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  186333 -61912.6 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  185738 -62507.9 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  189905 -63103.2 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  190500 -62507.9 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  189905 -61912.6 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  189905 -60721.9 (net GND)(type protect))
-    (via "Via[0-3]_600:300_um"  190500 -61317.2 (net GND)(type protect))
   )
 )

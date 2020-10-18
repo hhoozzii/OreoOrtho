@@ -299,9 +299,9 @@ Wire Wire Line
 	1925 4250 2275 4250
 Wire Wire Line
 	1925 4250 1925 4450
-Text GLabel 5825 2725 2    50   Input ~ 0
+Text GLabel 5825 1625 2    50   Input ~ 0
 Row1
-Text GLabel 5825 2025 2    50   Input ~ 0
+Text GLabel 5825 3225 2    50   Input ~ 0
 Col1
 $Comp
 L MCU_Microchip_ATmega:ATmega32U2-AU U1
@@ -350,13 +350,13 @@ F 3 "~" H 6025 3625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 5825 1425
-NoConn ~ 5825 1525
-NoConn ~ 5825 1625
+NoConn ~ 5825 2725
+NoConn ~ 5825 2625
 NoConn ~ 5825 2925
 NoConn ~ 5825 3025
-NoConn ~ 5825 3125
-NoConn ~ 5825 3225
-NoConn ~ 5825 3325
+NoConn ~ 5825 2025
+NoConn ~ 5825 1825
+NoConn ~ 5825 2125
 NoConn ~ 5825 3425
 NoConn ~ 5825 3525
 Wire Wire Line
@@ -579,7 +579,7 @@ U 1 1 60136BE3
 P 8325 1950
 F 0 "SW3" H 8250 1950 50  0000 L CNN
 F 1 "MXSwitch" H 8175 1875 39  0000 L CNN
-F 2 "kbd:CherryMX_1u" H 8325 1950 50  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 8325 1950 50  0001 C CNN
 F 3 "" H 8325 1950 50  0001 C CNN
 	1    8325 1950
 	1    0    0    -1  
@@ -592,7 +592,7 @@ U 1 1 60136BF5
 P 9025 1950
 F 0 "SW4" H 8950 1950 50  0000 L CNN
 F 1 "MXSwitch" H 8875 1875 39  0000 L CNN
-F 2 "kbd:CherryMX_1u" H 9025 1950 50  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 9025 1950 50  0001 C CNN
 F 3 "" H 9025 1950 50  0001 C CNN
 	1    9025 1950
 	1    0    0    -1  
@@ -650,7 +650,7 @@ U 1 1 5F890CB1
 P 8325 1375
 F 0 "SW1" H 8250 1375 50  0000 L CNN
 F 1 "MXSwitch" H 8175 1300 39  0000 L CNN
-F 2 "kbd:CherryMX_1u" H 8325 1375 50  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 8325 1375 50  0001 C CNN
 F 3 "" H 8325 1375 50  0001 C CNN
 	1    8325 1375
 	1    0    0    -1  
@@ -763,12 +763,12 @@ F 3 "" H 9425 3750 50  0001 C CNN
 	1    9325 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5825 2125 2    50   Input ~ 0
+Text GLabel 5825 3325 2    50   Input ~ 0
 Col0
-Text GLabel 5825 2625 2    50   Input ~ 0
+Text GLabel 5825 1525 2    50   Input ~ 0
 Row0
 NoConn ~ 5825 1725
-Text GLabel 5825 1825 2    50   Input ~ 0
+Text GLabel 5825 3125 2    50   Input ~ 0
 LED
 $Comp
 L kbd:YS-SK6812MINI-E LED4
@@ -821,7 +821,7 @@ U 1 1 6011665D
 P 9025 1375
 F 0 "SW2" H 8950 1375 50  0000 L CNN
 F 1 "MXSwitch" H 8875 1300 39  0000 L CNN
-F 2 "kbd:CherryMX_1u" H 9025 1375 50  0001 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 9025 1375 50  0001 C CNN
 F 3 "" H 9025 1375 50  0001 C CNN
 	1    9025 1375
 	1    0    0    -1  
