@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.7)-1"
     },
-    "CreationDate":  "2020-10-17T05:15:24-04:00"
+    "CreationDate":  "2020-10-26T01:34:49-04:00"
   },
   "GeneralSpecs":
   {
@@ -19,8 +19,8 @@
     },
     "Size":
     {
-      "X": 57.200,
-      "Y": 39.341
+      "X": 56.593,
+      "Y": 36.352
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -29,10 +29,10 @@
   [
     {
       "Layers": "Outer",
-      "PadToPad":  0.130,
-      "PadToTrack":  0.130,
-      "TrackToTrack":  0.130,
-      "MinLineWidth":  0.254,
+      "PadToPad":  0.127,
+      "PadToTrack":  0.127,
+      "TrackToTrack":  0.127,
+      "MinLineWidth":  0.200,
       "TrackToRegion":  0.508,
       "RegionToRegion":  0.508
     }
@@ -40,12 +40,12 @@
   "FilesAttributes":
   [
     {
-      "Path":  "OreoOrtho-F_Cu.gbr",
+      "Path":  "OreoOrtho-Front.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "OreoOrtho-B_Cu.gbr",
+      "Path":  "OreoOrtho-Back.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
@@ -83,6 +83,11 @@
       "Path":  "OreoOrtho-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "OreoOrtho-F_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Top",
+      "FilePolarity":  "Positive"
     }
   ],
   "MaterialStackup":
@@ -101,7 +106,7 @@
     },
     {
       "Type":  "Copper",
-      "Notes":  "Layer F.Cu"
+      "Notes":  "Layer Front"
     },
     {
       "Type":  "Dielectric",
@@ -110,7 +115,7 @@
     },
     {
       "Type":  "Copper",
-      "Notes":  "Layer B.Cu"
+      "Notes":  "Layer Back"
     },
     {
       "Type":  "SolderMask",

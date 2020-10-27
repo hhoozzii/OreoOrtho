@@ -2,4 +2,5 @@
   (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/kicad_files/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/kicad_files/Type-C.pretty-master/Type-C.lib)(options "")(descr ""))
   (lib (name kbd)(type Legacy)(uri ${KIPRJMOD}/kicad_files/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
+  (lib (name oreo)(type Legacy)(uri ${KIPRJMOD}/kicad_files/hozi/symbols/oreo.lib)(options "")(descr ""))
 )

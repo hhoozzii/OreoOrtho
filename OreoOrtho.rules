@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2282)
+    (start_pass_no 1624)
     (layer_rule Front
       (active on)
       (preferred_direction horizontal)
@@ -71,8 +71,8 @@
   )
   (class "kicad_default"
     "Net-(C1-Pad2)" "Net-(C2-Pad2)" "Net-(C3-Pad2)" "Net-(D1-Pad2)" Row0 "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)"
-    Row1 "Net-(LED1-Pad2)" LED "Net-(LED2-Pad2)" "Net-(LED3-Pad2)" "Net-(R1-Pad1)" "Net-(R2-Pad2)" "Net-(R3-Pad1)"
-    D+ "Net-(R4-Pad1)" "Net-(R5-Pad2)" "D-" "Net-(R6-Pad1)" Col0 Col1 "Net-(U1-Pad12)"
+    Row1 "Net-(LED1-Pad2)" "Net-(LED2-Pad2)" "Net-(LED3-Pad2)" "Net-(R2-Pad2)" "Net-(R3-Pad1)" D+ "Net-(R4-Pad1)"
+    "Net-(R5-Pad2)" "D-" "Net-(R6-Pad1)" Col0 Col1 RST LED
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
